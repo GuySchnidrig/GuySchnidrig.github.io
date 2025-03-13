@@ -3,6 +3,8 @@ SITENAME = 'Guy Schnidrig'
 SITEURL = ""
 
 PATH = "content"
+OUTPUT_PATH = 'docs'
+RELATIVE_URLS = True
 
 TIMEZONE = 'Europe/Rome'
 
@@ -22,9 +24,6 @@ AUTHOR_FEED_RSS = None
 SOCIAL = (("github", "https://github.com/GuySchnidrig"),)
 
 DEFAULT_PAGINATION = 5
-
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
 
 
 # Use the Flex Theme
