@@ -17,17 +17,18 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (
 
-    
-)
-
-# Social widget
-SOCIAL = (
-
-)
+# Enable Social Links (Optional)
+SOCIAL = (("github", "https://github.com/GuySchnidrig"),)
 
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+
+# Use the Flex Theme
+THEME = "pelican-themes\Flex"
+FAVICON = "images/favicon.ico"
+BROWSER_COLOR = "#333"  # Change the browser tab color on mobile
+
