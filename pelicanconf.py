@@ -28,7 +28,7 @@ DEFAULT_PAGINATION = 5
 
 
 # Use the Flex Theme
-THEME = "pelican-themes\Flex"
+THEME = "themes/Flex"
 FAVICON = "images/favicon.ico"
 BROWSER_COLOR = "#333"  # Change the browser tab color on mobile
 
