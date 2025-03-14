@@ -22,7 +22,10 @@ OUTPUT_PATH = 'docs'
 RELATIVE_URLS = True
 DISABLE_URL_HASH = True
 DEFAULT_PAGINATION = 5
-FAVICON = "images/favicon.ico"
+
+# Images
+FAVICON = "/images/favicon.ico"
+SITELOGO = SITEURL + "/images/favicon.svg"
 
 # Time and Language
 TIMEZONE = 'Europe/Rome'
@@ -68,7 +71,6 @@ CC_LICENSE = {
 COPYRIGHT_YEAR = datetime.now().year
 
 
-DISQUS_SITENAME = "Guy-Schnidrig"
 ADD_THIS_ID = "42"
 
 # Darkmode
