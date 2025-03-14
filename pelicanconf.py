@@ -22,6 +22,7 @@ OUTPUT_PATH = 'docs'
 RELATIVE_URLS = True
 DISABLE_URL_HASH = True
 DEFAULT_PAGINATION = 5
+FAVICON = "images/favicon.ico"
 
 # Time and Language
 TIMEZONE = 'Europe/Rome'
