@@ -50,16 +50,27 @@
 
  
 
-    <meta name="author" content="Guy Schnidrig" />
-    <meta name="description" content="Personal Website of Guy Schnidrig" />
-  <meta property="og:site_name" content="Guy Schnidrig"/>
-  <meta property="og:type" content="blog"/>
-  <meta property="og:title" content="Guy Schnidrig"/>
-  <meta property="og:description" content="Personal Website of Guy Schnidrig"/>
-  <meta property="og:locale" content="en_US"/>
-  <meta property="og:url" content="."/>
+<meta name="author" content="Guy Schnidrig" />
+<meta name="description" content="This is my first blog post using Pelican!" />
+<meta name="keywords" content="personal, pelican, website">
 
-  <title>Guy Schnidrig</title>
+
+  <meta property="og:site_name" content="Guy Schnidrig"/>
+  <meta property="og:title" content="My First Blog Post"/>
+  <meta property="og:description" content="This is my first blog post using Pelican!"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content="./first-post.html"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2025-03-13 00:00:00+01:00"/>
+  <meta property="article:modified_time" content=""/>
+  <meta property="article:author" content="./author/guy-schnidrig.html">
+  <meta property="article:section" content="Blog"/>
+  <meta property="article:tag" content="personal"/>
+  <meta property="article:tag" content="pelican"/>
+  <meta property="article:tag" content="website"/>
+  <meta property="og:image" content="">
+
+  <title>Guy Schnidrig &ndash; My First Blog Post</title>
 
 
 </head>
@@ -136,31 +147,55 @@
 
 </nav>
 
-
-
-<article>
+<article class="single">
   <header>
-    <h2><a href="./first-post.html">My First Blog Post</a></h2>
+      
+    <h1 id="first-post">My First Blog Post</h1>
     <p>
       Posted on Thu 13 March 2025 in <a href="./category/blog.html">Blog</a>
 
-
     </p>
   </header>
+
+
   <div>
-      <div><p>This is my first blog post using Pelican!</p></div>
-        <br>
-        <a class="btn"
-           href="./first-post.html">
-          Continue reading
-        </a>
+    <p>Welcome to my personal website built with Pelican!</p>
   </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="./tag/personal.html">personal</a>
+      <a href="./tag/pelican.html">pelican</a>
+      <a href="./tag/website.html">website</a>
+    </p>
+  </div>
+
+  <div class="center social-share">
+    <p>Like this article? Share it with your friends!</p>
+    <div class="addthis_native_toolbox"></div>
+    <div class="addthis_sharing_toolbox"></div>
+    <div class="addthis_inline_share_toolbox"></div>
+  </div>
+
+
+    <div class="addthis_relatedposts_inline"></div>
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'Guy-Schnidrig';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view comments.
+</noscript>
+<!-- End Disqus -->
 </article>
-
-  <div class="pagination">
-  </div>
-
-
 
 <footer>
 <p>
