@@ -1,4 +1,4 @@
-Title: Cattle Classification Post Date: 2025-03-01 Category: Blog Tags: veterinary, cattle, machine-learning, surveillance Slug: paper Summary: This is my first blog post using Pelican!
+Title: Cattle Classification Post Date: 2025-03-01 Category: Blog Tags: veterinary, cattle, machine-learning, surveillance Slug: paper Summary: Latest research paper.
 
 I’m happy to share our latest publication on this topic: https://lnkd.in/er2_yT-3 
 
