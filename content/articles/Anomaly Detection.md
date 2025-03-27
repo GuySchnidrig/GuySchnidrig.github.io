@@ -1,4 +1,4 @@
-Title: Cattle Classification Post Date: 2025-03-01 Category: Blog Tags: veterinary, cattle, machine-learning, surveillance Slug: paper Summary: Publication of my latest research paper
+Title: Anomaly detection Post Date: 2025-03-01 Category: Blog Tags: veterinary, cattle, machine-learning, surveillance, antibiotic use Slug: paper Summary: Publication of my latest research paper.
 
 I am delighted to announce the publication of my latest research paper, titled “Anomaly detection in the veterinary antibiotic prescription surveillance system (IS ABV)” in Preventive Veterinary Medicine. In this paper we present a method for the detection of anomalies in the Swiss antibiotic prescription monitoring system. https://lnkd.in/eG-zAW7W
 
