@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet/less" type="text/css" href="./theme/stylesheet/style.less">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js" type="text/javascript"></script>
+
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark)"
+    href="./theme/stylesheet/dark-theme.min.css">
+
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark)"
+          href="./theme/pygments/monokai.min.css">
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+          href="./theme/pygments/monokai.min.css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/solid.css">
+
+
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#333">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#333">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- Microsoft EDGE -->
+  <meta name="msapplication-TileColor" content="#333">
+
+  <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Guy Schnidrig Atom">
+
+
+
+ 
+
+<meta name="author" content="Guy Schnidrig" />
+<meta name="description" content="Classification of swiss cattle farms" />
+<meta name="keywords" content="veterinary, cattle, machine-learning, surveillance">
+
+
+  <meta property="og:site_name" content="Guy Schnidrig"/>
+  <meta property="og:title" content="Cattle Classification"/>
+  <meta property="og:description" content="Classification of swiss cattle farms"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content="./cattle-classification.html"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2025-03-01 00:00:00+01:00"/>
+  <meta property="article:modified_time" content=""/>
+  <meta property="article:author" content="./author/guy-schnidrig.html">
+  <meta property="article:section" content="Blog"/>
+  <meta property="article:tag" content="veterinary"/>
+  <meta property="article:tag" content="cattle"/>
+  <meta property="article:tag" content="machine-learning"/>
+  <meta property="article:tag" content="surveillance"/>
+  <meta property="og:image" content="/images/favicon.svg">
+
+  <title>Guy Schnidrig &ndash; Cattle Classification</title>
+
+
+</head>
+<body >
+
+<aside>
+  <div>
+    <a href="./">
+      <img src="/images/favicon.svg" alt="Guy Schnidrig, PhD" title="Guy Schnidrig, PhD">
+    </a>
+
+    <h1>
+      <a href="./">Guy Schnidrig, PhD</a>
+    </h1>
+
+    <p>Data Scientist</p>
+
+
+    <nav>
+      <ul class="list">
+
+
+            <li>
+              <a target="_self"
+                 href="./pages/about.html">
+                About Me
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="./pages/contact.html">
+                Contact
+              </a>
+            </li>
+
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-github"
+           href="https://github.com/GuySchnidrig"
+           target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-linkedin"
+           href="https://www.linkedin.com/in/guy-schnidrig/"
+           target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-rss"
+           href="/blog/feeds/all.atom.xml"
+           target="_blank">
+          <i class="fa-solid fa-rss"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+<nav>
+  <a href="./">Home</a>
+
+  <a href="/pages/about.html">About Me</a>
+  <a href="/pages/contact.html">Contact</a>
+
+  <a href="/feeds/all.atom.xml">Atom</a>
+
+</nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="cattle-classification">Cattle Classification</h1>
+    <p>
+      Posted on Sat 01 March 2025 in <a href="./category/blog.html">Blog</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>While many countries have registries of livestock farms, obtaining detailed information on their primary production types can still be a challenge. For example, for Swiss farms registered as keeping cattle, a distinction can only be made between milk-producing and non-milk-producing farms. However, a better differentiation of production types would significantly improve the planning and evaluation of cattle disease surveillance.
+This study aimed to address this gap by defining five primary cattle production types: calf fattening, dairy cattle, cattle fattening, rearing cattle, and suckler cows. By working with experts and cantonal Veterinary Offices, we collected data from 618 reference farms across 14 cantons and integrated information from three national databases. This allowed us to train machine learning models to classify these production types more accurately.</p>
+<p><img alt="anomaly_pic" src="images/pca_farm_types.png"></p>
+<p>The Random Forest model stood out with an 𝐚𝐜𝐜𝐮𝐫𝐚𝐜𝐲 𝐨𝐟 𝟎.𝟗𝟏𝟒 (95% CI: 0.890, 0.938) and an 𝐅𝟏-𝐒𝐜𝐨𝐫𝐞 𝐨𝐟 𝟎.𝟖𝟕𝟗 (95% CI: 0.841, 0.913). Our model enables a reproducible, year-to-year classification of Swiss cattle farms, improving the efficiency of disease surveillance.</p>
+<p><img alt="anomaly_pic" src="images/model_Randomforest_shap_fig.png"></p>
+<p>Our methodology is adaptable to other countries and datasets, providing a scalable solution for targeted disease surveillance and perhaps even benchmarking antibiotic use for the benefit of veterinary authorities.</p>
+<p>You can read the full paper <a href="https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2025.1517173/full">here</a>.</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="./tag/veterinary.html">veterinary</a>
+      <a href="./tag/cattle.html">cattle</a>
+      <a href="./tag/machine-learning.html">machine-learning</a>
+      <a href="./tag/surveillance.html">surveillance</a>
+    </p>
+  </div>
+
+  <div class="center social-share">
+    <p>Like this article? Share it with your friends!</p>
+    <div class="addthis_native_toolbox"></div>
+    <div class="addthis_sharing_toolbox"></div>
+    <div class="addthis_inline_share_toolbox"></div>
+  </div>
+
+
+    <div class="addthis_relatedposts_inline"></div>
+
+
+
+</article>
+
+<footer>
+<p>
+  &copy; 2025  - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="./theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="light"
+          type="text/javascript">
+  </script>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+           src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Guy Schnidrig ",
+  "url" : ".",
+  "image": "/images/favicon.svg",
+  "description": "Personal Website of Guy Schnidrig"
+}
+</script><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=42" async="async"></script>
+<a href="https://github.com/GuySchnidrig" target="_blank" class="github-corner" aria-label="View source on Github">
+    <svg width="80"
+         height="80"
+         viewBox="0 0 250 250"
+         style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;"
+         aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor"
+              style="transform-origin: 130px 106px;"
+              class="octo-arm">
+        </path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor"
+              class="octo-body">
+        </path>
+    </svg>
+</a>
+
+</body>
+</html>

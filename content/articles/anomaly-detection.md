@@ -3,7 +3,7 @@ Date: 2025-03-01
 Modified: 2025-03-01
 Category: Blog
 Tags: machine-learning, surveillance, antibiotic use, veterinary, cattle 
-Slug: paper 
+Slug: anomaly-detection
 Authors: Guy Schnidrig
 Summary: Anomaly detection in IS ABV.
 
